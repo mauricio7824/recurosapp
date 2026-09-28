@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Recursos Católicos</title>
+<meta name="theme-color" content="#2b2350">
+<meta name="description" content="Aplicaciones, libros, canales, música y charlas católicas para descargar.">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="stylesheet" href="styles.css">
+</head><body>
+<header>
+  <div class="brand"><span class="cross" aria-hidden="true">✝</span><h1>Recursos Católicos</h1></div>
+  <input id="q" type="search" placeholder="Buscar recursos" aria-label="Buscar recursos">
+  <button id="install" hidden>Instalar app</button>
+</header>
+<div id="adminbar" hidden></div>
+<nav id="cats" aria-label="Categorías"></nav>
+<nav id="subs" aria-label="Subcategorías"></nav>
+<main id="list"></main>
+<footer><button id="adminBtn" class="link">Administrar</button></footer>
+<dialog id="dlg"></dialog>
+<div id="toast" role="status"></div>
+<script src="app.js"></script>
+</body></html>

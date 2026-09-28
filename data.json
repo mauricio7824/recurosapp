@@ -1,0 +1,10 @@
+{
+  "categories": [
+    {"id":"apps","name":"Aplicaciones","icon":"📱","subs":[]},
+    {"id":"libros","name":"Libros","icon":"📚","subs":[]},
+    {"id":"canales","name":"Canales","icon":"📺","subs":[]},
+    {"id":"musica","name":"Música","icon":"🎵","subs":[]},
+    {"id":"charlas","name":"Charlas","icon":"🎙️","subs":[]}
+  ],
+  "items": []
+}
